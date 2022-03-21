@@ -48,7 +48,7 @@ Run the following command with the system information text file.
 python wes.py sysinfo.txt -i 'Elevation of Privilege' --exploits-only
 ```
 
-Cross reference any results from the output with any known binaries from SecWiki's github kernel precompiled exploits. If none are found, use Google.
+Cross reference any results from the output with any known binaries from SecWiki's github kernel precompiled exploits. If none are found, go through the results and use Google to look for exploits.
 
 #### Old version
 Make sure python3-xlrd dependency is installed.
