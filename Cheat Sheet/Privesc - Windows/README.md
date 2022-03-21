@@ -33,10 +33,24 @@
 ## Tools
 
 ### Windows-Exploit-Suggester
-> https://github.com/AonCyberLabs/Windows-Exploit-Suggester
-
 > https://github.com/bitsadmin/wesng (new version)
 
+> https://github.com/AonCyberLabs/Windows-Exploit-Suggester
+
+#### New version
+Retrieve system information from target Windows host and save output into a text file.
+```powershell
+systeminfo
+```
+
+Run the following command with the system information text file.
+```powershell
+python wes.py sysinfo.txt -i 'Elevation of Privilege' --exploits-only
+```
+
+Cross reference any results from the output with any known binaries from SecWiki's github kernel precompiled exploits. If none are found, use Google.
+
+#### Old version
 Make sure python3-xlrd dependency is installed.
 ```powershell
 apt-get update
