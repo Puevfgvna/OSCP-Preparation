@@ -33,6 +33,7 @@
 
 ### Windows-Exploit-Suggester
 > https://github.com/AonCyberLabs/Windows-Exploit-Suggester
+
 > https://github.com/bitsadmin/wesng (new version)
 
 Make sure python3-xlrd dependency is installed.
