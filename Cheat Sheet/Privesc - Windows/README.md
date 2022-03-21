@@ -239,9 +239,10 @@ reg query HKLM\SYSTEM\CurrentControlSet\services\regsvc
     ObjectName    REG_SZ    LocalSystem
 ```
 
-Check that the Registry entry for the service is writable.
+Check that the Registry entry for the service is writable. (use accesschk or powershell)
 ```powershell
 accesschk.exe /accepteula -uvwqk HKLM\System\CurrentControlSet\Services\regsvc
+PS > Get-Acl HKLM:\System\CurrentControlSet\Services\regsvc | Format-List
 ```
 
 Overwrite the ImagePath Registry key to point to a reverse shell payload.
