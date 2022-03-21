@@ -89,13 +89,9 @@ winPEASany.exe
 ## Kernel Exploits
 > https://github.com/SecWiki/windows-kernel-exploits (precompiled exploits)
 
-> https://github.com/rasta-mouse/Watson
-
 Use Windows Exploit Suggester to look for kernel exploits.
 
 Use SecWiki to look for precompiled kernel exploits.
-
-Use Watson to look for kernel exploits.
 
 ## Service Exploits
 Service commands.
