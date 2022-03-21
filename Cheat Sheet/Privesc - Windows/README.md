@@ -258,12 +258,14 @@ net start regsvc
 ### Insecure Service Executables
 If an original service executable is modifiable by the user, it can simply be replaced with a file that has the same name. Always create a backup of the original executable and restore it when finished in a real system.
 
-Check if any service has an executable that is writable using `winPEAS`.
+Check if any service has an executable that is writable using `winPEAS` or `accesschk`.
 ```powershell
 winPEASany.exe quiet servicesinfo
 
 filepermsvc(File Permissions Service)["C:\Program Files\File Permissions Service\filepermservice.exe"]
     File Permissions: Everyone [AllAccess]
+    
+accesschk.exe /accepteula -quvw "C:\Program Files\File Permissions Service\filepermservice.exe"
 ```
 
 Check if the user can start/stop the service.
