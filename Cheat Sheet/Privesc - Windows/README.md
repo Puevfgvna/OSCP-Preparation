@@ -19,6 +19,7 @@
   * [Registry](#registry)
   * [Saved Credentials](#saved-credentials)
   * [Unintended Installs](#unintended-installs)
+  * [Searching For Configuration Files](#searching-for-configuration-files)
   * [Security Account Manager (SAM)](#security-account-manager-sam)
   * [Pass the Hash](#pass-the-hash)
 * [Scheduled Tasks](#scheduled-tasks)
