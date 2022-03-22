@@ -457,7 +457,7 @@ sysprep.xml
 sysprep.inf
 ```
 
-### Searching for configuration files.
+### Searching for configuration files
 Some administrators will leave configuration files on the system with passwords in them.
 
 Recursively search the current directory for files with "pass" in the name or end in .config.
