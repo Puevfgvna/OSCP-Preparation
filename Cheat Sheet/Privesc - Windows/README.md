@@ -458,7 +458,7 @@ sysprep.inf
 ```
 
 ### Searching For Configuration Files
-Some administrators will leave configuration files on the system with passwords in them.
+Some administrators will leave configuration files on the system with passwords in them. It is best to run the following commands in directories that may seem important, such as the current user's home directory.
 
 Recursively search the current directory for files with "pass" in the name or end in .config.
 ```powershell
