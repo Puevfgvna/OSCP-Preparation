@@ -456,6 +456,19 @@ sysprep.xml
 sysprep.inf
 ```
 
+### Searching for configuration files.
+Some administrators will leave configuration files on the system with passwords in them.
+
+Recursively search the current directory for files with "pass" in the name or end in .config.
+```powershell
+dir /s *pass* == *.config
+```
+
+Recursively search the current directory for files that contain the word "password" and also end in either .xml, .ini, or .txt.
+```powershell
+findstr /si password *.xml *.ini *.txt
+```
+
 ### Security Account Manager (SAM)
 Windows stores password hashes in the `SAM`, which are encrypted with a key found in a file named `SYSTEM`. 
 
