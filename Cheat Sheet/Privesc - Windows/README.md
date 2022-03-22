@@ -566,6 +566,7 @@ nc -lvnp 53
 ```
 
 ### Installed Applications
+Check Google and exploit-db for exploits.
 > https://www.exploit-db.com/
 
 Check all running programs.
