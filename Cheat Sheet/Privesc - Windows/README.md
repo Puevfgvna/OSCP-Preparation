@@ -122,6 +122,9 @@ sc.exe config [service] [option]= [value]
 
 #start/stop a service
 net start/stop [service]
+
+#restart the system (might not have permissions to, but try it anyways)
+shutdown /r /t 0
 ```
 
 ### Insecure Service Permissions
