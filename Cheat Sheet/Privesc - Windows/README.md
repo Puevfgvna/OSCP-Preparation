@@ -123,8 +123,8 @@ sc.exe config [service] [option]= [value]
 #start/stop a service
 net start/stop [service]
 
-#restart the system (might not have permissions to, but try it anyways)
-shutdown /r /t 0
+#restart the system, delay the reboot and chain the exit command to terminate the shell properly without crashing the service
+shutdown -r -t 10 && exit
 ```
 
 ### Insecure Service Permissions
