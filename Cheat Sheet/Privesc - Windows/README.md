@@ -414,6 +414,7 @@ Search the Registry for keys and values that contain the word `password`.
 winPEASany.exe quiet filesinfo userinfo
 
 reg query HKLM /f password /t REG_SZ /s
+reg query HKLM /f pass /t REG_SZ /s
 reg query HKCU /f password /t REG_SZ /s
 ```
 
